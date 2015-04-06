@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kax-4a-Bpz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
+                    </imageView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTW-Xj-fVq">
+                        <rect key="frame" x="0.0" y="149" width="320" height="50"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="chW-cv-AUw">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rhm-97-7Pc">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7EJ-x1-Qch">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRY-N7-uok">
+                                                <rect key="frame" x="8" y="14" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="wRY-N7-uok" firstAttribute="leading" secondItem="7EJ-x1-Qch" secondAttribute="leading" constant="8" id="bhg-5a-AhV"/>
+                                            <constraint firstAttribute="centerY" secondItem="wRY-N7-uok" secondAttribute="centerY" id="e7S-31-bvp"/>
+                                        </constraints>
+                                    </view>
+                                    <vibrancyEffect>
+                                        <blurEffect style="dark"/>
+                                    </vibrancyEffect>
+                                </visualEffectView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="rhm-97-7Pc" secondAttribute="trailing" id="Csw-J1-Y5e"/>
+                                <constraint firstAttribute="bottom" secondItem="rhm-97-7Pc" secondAttribute="bottom" id="ZJS-Li-hkr"/>
+                                <constraint firstItem="rhm-97-7Pc" firstAttribute="leading" secondItem="chW-cv-AUw" secondAttribute="leading" id="lrn-ns-9qJ"/>
+                                <constraint firstItem="rhm-97-7Pc" firstAttribute="top" secondItem="chW-cv-AUw" secondAttribute="top" id="t4N-LL-zyX"/>
+                            </constraints>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="vXc-Fm-SbC"/>
+                        </constraints>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="CTW-Xj-fVq" secondAttribute="bottom" id="4Xo-O6-RuG"/>
+                    <constraint firstAttribute="trailing" secondItem="kax-4a-Bpz" secondAttribute="trailing" id="LCV-Sj-f3g"/>
+                    <constraint firstItem="CTW-Xj-fVq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SBL-BP-B8Z"/>
+                    <constraint firstAttribute="bottom" secondItem="kax-4a-Bpz" secondAttribute="bottom" id="TGX-li-OgA"/>
+                    <constraint firstAttribute="trailing" secondItem="CTW-Xj-fVq" secondAttribute="trailing" id="ZM9-jL-3Wu"/>
+                    <constraint firstItem="kax-4a-Bpz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tMn-Rl-pdn"/>
+                    <constraint firstItem="kax-4a-Bpz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tU7-Tp-uPR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="landscapeImageView" destination="kax-4a-Bpz" id="YJd-WB-GzI"/>
+                <outlet property="landscapeLabel" destination="wRY-N7-uok" id="LuF-zZ-Ciw"/>
+            </connections>
+            <point key="canvasLocation" x="429" y="353"/>
+        </tableViewCell>
+    </objects>
+</document>

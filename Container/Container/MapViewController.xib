@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController">
+            <connections>
+                <outlet property="mView" destination="rZo-iw-vTd" id="wye-dI-EtC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rZo-iw-vTd">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </mapView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.2369983" blue="0.17414673189999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="rZo-iw-vTd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1j0-bE-cMh"/>
+                <constraint firstItem="rZo-iw-vTd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4FJ-HM-9LU"/>
+                <constraint firstAttribute="trailing" secondItem="rZo-iw-vTd" secondAttribute="trailing" id="h2f-7O-ddm"/>
+                <constraint firstAttribute="bottom" secondItem="rZo-iw-vTd" secondAttribute="bottom" id="tUe-UK-BfG"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
