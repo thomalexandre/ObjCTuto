@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3C686456-48C9-47D1-8688-BCB99988F046</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GCD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6B559EFEF36A68A368146532618B106BD3738E6E</key>
+		<string>https://github.com/thomalexandre/ObjCTutoDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GCD/GCD.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6B559EFEF36A68A368146532618B106BD3738E6E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thomalexandre/ObjCTutoDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6B559EFEF36A68A368146532618B106BD3738E6E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6B559EFEF36A68A368146532618B106BD3738E6E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjCTutoDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
